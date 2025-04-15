@@ -1,0 +1,48 @@
+Your company has datacenters in Los Angeles and New York. The company has a Microsoft Azure subscription.
+You are configuring the two datacenters as geo-clustered sites for site resiliency.
+You need to recommend an Azure storage redundancy option.
+You have the following data storage requirements:
+
+* Data must be stored on multiple nodes.
+
+* Data must be stored on nodes in separate geographic locations.
+
+* Data can be read from the secondary location as well as from the primary location.
+
+Which of the following Azure storage redundancy options should you recommend?
+
+(你公司在洛杉磯與紐約擁有資料中心，並訂閱了 Microsoft Azure。
+
+你正在將這兩個資料中心設定為地理叢集（geo-clustered）以強化網站的韌性。
+
+你需要推薦一種適合的 Azure 儲存備援選項。
+
+資料儲存需求如下：
+
+* 資料必須儲存在多個節點上
+
+* 資料必須儲存在不同地理位置的節點上
+
+* 資料必須可以從主要地點和次要地點讀取
+
+請問你應該推薦下列哪一種 Azure 儲存備援選項？)
+
+A. Geo-redundant storage 地理備援儲存
+B. Read-only geo-redundant storage 唯讀地理備援儲存
+C. Zone-redundant storage 區域備援儲存
+D. Locally redundant storage 本地備援儲存
+
+ANS：B
+
+
+1. Geo-redundant storage（GRS）：
+將資料備份到另一個地理區域，但只能從主區域讀取，次要區域是純備援用，不能存取資料。
+
+2. Read-only geo-redundant storage（RA-GRS）：
+和 GRS 類似，也會跨地區備援，但次要地區可以唯讀資料，適合做災難復原或提高可用性。
+
+3. Zone-redundant storage（ZRS）：
+資料會複製到同一區域內的多個可用性區域（Zone），不跨地理區域，但可以容錯且資料能讀取。
+
+4. Locally redundant storage（LRS）：
+資料僅在單一資料中心備份 3 次，不跨區、不跨 Zone，成本最低，適合不重要的資料。
