@@ -1,0 +1,57 @@
+Your developers have created 10 web applications that must be host on Azure.
+You need to determine which Azure web tier plan to host the web apps. The web tier plan must meet the following requirements:
+✑ The web apps will use custom domains.
+✑ The web apps each require 10 GB of storage.
+✑ The web apps must each run in dedicated compute instances.
+✑ Load balancing between instances must be included.
+✑ Costs must be minimized.
+Which web tier plan should you use?
+你的開發人員已經創建了 10 個 Web 應用程式，這些應用程式必須托管在 Azure 上。
+你需要決定使用哪個 Azure Web Tier 計劃來托管這些 Web 應用程式。該 Web Tier 計劃必須滿足以下要求：
+# Web 應用程式將使用自訂域名。 
+# 每個 Web 應用程式需要 10 GB 的儲存空間。 
+# 每個 Web 應用程式必須運行在專用計算實例中。 
+# 必須包括實例之間的負載平衡。 
+# 必須最小化成本。
+
+你應該使用哪個 Web Tier 計劃？
+
+A. Standard 標準
+B. Basic 基本
+C. Free 免費
+D. Shared 共用
+
+
+
+ANS：A
+
+
+
+------------------------------------------------------------------------
+A. Standard
+自訂域名：支持。
+儲存空間：每個應用程式有足夠的儲存空間（最大 50 GB）。
+專用計算實例：支持專用實例，適合需要專用資源的應用程式。
+負載平衡：包含負載平衡功能，適合需要可擴展性的應用。
+成本最小化：雖然不如 Basic 便宜，但可以滿足所有需求，並且提供必要的功能，性價比高。
+
+B. Basic
+自訂域名：支持。
+儲存空間：每個應用程式有最多 10 GB 儲存空間，這符合需求。
+專用計算實例：支持專用實例，適合有較高性能需求的應用。
+負載平衡：不包括內建的負載平衡功能，這會是缺失。
+成本最小化：比 Standard 便宜，但缺乏負載平衡功能，可能無法滿足需求。
+
+C. Free
+自訂域名：不支持自訂域名，這是個關鍵缺點。
+儲存空間：提供非常有限的儲存空間（1 GB），遠低於需求的 10 GB。
+專用計算實例：不支持專用計算實例，只有共用實例。
+負載平衡：不支持負載平衡。
+成本最小化：最便宜，但完全無法滿足需求。
+
+D. Shared
+自訂域名：支持。
+儲存空間：提供的儲存空間通常較少，無法保證滿足每個應用程式 10 GB 的需求。
+專用計算實例：使用共用計算資源，無法提供專用計算實例。
+負載平衡：不支持負載平衡。
+成本最小化：價格較便宜，但無法提供專用計算實例和負載平衡。
