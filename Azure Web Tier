@@ -1,10 +1,10 @@
 Your developers have created 10 web applications that must be host on Azure.
 You need to determine which Azure web tier plan to host the web apps. The web tier plan must meet the following requirements:
-✑ The web apps will use custom domains.
-✑ The web apps each require 10 GB of storage.
-✑ The web apps must each run in dedicated compute instances.
-✑ Load balancing between instances must be included.
-✑ Costs must be minimized.
+# The web apps will use custom domains.
+# The web apps each require 10 GB of storage.
+# The web apps must each run in dedicated compute instances.
+# Load balancing between instances must be included.
+# Costs must be minimized.
 Which web tier plan should you use?
 你的開發人員已經創建了 10 個 Web 應用程式，這些應用程式必須托管在 Azure 上。
 你需要決定使用哪個 Azure Web Tier 計劃來托管這些 Web 應用程式。該 Web Tier 計劃必須滿足以下要求：
