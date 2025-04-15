@@ -6,25 +6,21 @@ Solution: You recommend that the company subscribes to the Professional Direct s
 Does the solution meet the goal?
 
 **注意：**這題是多題共用同一個情境設定的其中一題，但每題的目標不同，請判斷該解法是否符合本題目標。
-
 你公司的 Azure 訂閱目前使用的是 Basic 支援方案。
-
 公司希望能向 Microsoft 請求一個 Azure 環境設計的評估建議，但目前的 Basic 方案無法提供這項功能。
-
 你想確保公司升級成一個能支援此功能的支援方案，同時盡量控制費用不要太高。
-
 解決方案： 你建議公司升級到 Professional Direct 支援方案。
-
 這個解決方案是否達到目標？
 
 A. Yes
 B. No
 
 
+
 ANS：B
+解析：Professional Direct可支援此功能，但不符合成本考量
 
-
-
+---------------------------------------------------------------------------------------------------
 Azure 支援方案（Support Plans）由便宜到昂貴排序，共 5 種：
 1. Basic（免費）
 # 包含 Azure 服務健康狀態 Dashboard 和線上文件。
