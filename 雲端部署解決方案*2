@@ -10,9 +10,9 @@ Does the solution meet the goal?
 解決方案：你應該使用軟體即服務（SaaS）。
 這個解決方案是否達到目標？
 
-
 A. Yes
 B. No
+
 
 
 ANS：B
@@ -30,6 +30,8 @@ Does the solution meet the goal?
 A. Yes
 B. No
 
+
+
 ANS：B
 解析：Iaas
 ******************************************************************
@@ -42,9 +44,9 @@ Does the solution meet the goal?
 解決方案：你應該使用基礎設施即服務（IaaS）。
 這個解決方案是否達到目標？
 
-
 A. Yes
 B. No
+
 
 
 ANS：A
@@ -82,3 +84,13 @@ Google Workspace（Gmail、Google Docs）
 Microsoft 365（Office、OneDrive）
 Salesforce（CRM）
 Dropbox（雲端儲存）
+
+4. FaaS（Function as a Service，函數即服務）（無伺服器計算）
+特點：
+# 事件驅動：FaaS 是一種無伺服器計算模式，允許開發者撰寫小的函數來處理特定的事件（如HTTP請求），不需要管理伺服器或基礎設施。
+# 自動擴展：系統會根據需求自動擴展或縮減資源。
+# 適用場景：適合執行單一任務、無狀態操作、事件驅動的應用，尤其是需要高效能和即時反應的應用。
+常見提供商：
+AWS Lambda
+Azure Functions
+Google Cloud Functions
