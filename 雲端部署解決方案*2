@@ -16,8 +16,40 @@ B. No
 
 
 ANS：B
-
 解析：Iaas
+**************************************************************************
+You are tasked with deploying Azure virtual machines for your company.
+You need to make use of the appropriate cloud deployment solution.
+Solution: You should make use of Platform as a Service (PaaS).
+Does the solution meet the goal?
+你的任務是為公司部署 Azure 虛擬機器。
+你需要使用適當的雲端部署解決方案。
+解決方案：你應該使用平台即服務（PaaS）。
+這個解決方案是否達到目標？
+
+A. Yes
+B. No
+
+ANS：B
+解析：Iaas
+******************************************************************
+You are tasked with deploying Azure virtual machines for your company.
+You need to make use of the appropriate cloud deployment solution.
+Solution: You should make use of Infrastructure as a Service (IaaS).
+Does the solution meet the goal?
+你的任務是為公司部署 Azure 虛擬機器。
+你需要使用適當的雲端部署解決方案。
+解決方案：你應該使用基礎設施即服務（IaaS）。
+這個解決方案是否達到目標？
+
+
+A. Yes
+B. No
+
+
+ANS：A
+
+-------------------------------------------------------------------------------------------
 
 1. IaaS（Infrastructure as a Service，基礎設施即服務）
 特點：
