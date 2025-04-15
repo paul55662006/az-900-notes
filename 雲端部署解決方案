@@ -1,0 +1,52 @@
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+You are tasked with deploying Azure virtual machines for your company.
+You need to make use of the appropriate cloud deployment solution.
+Solution: You should make use of Software as a Service (SaaS).
+Does the solution meet the goal?
+
+**注意：**這題是多題共用同一個情境設定的其中一題，但每題的目標不同，請判斷該解法是否符合本題目標。
+你的任務是為公司部署 Azure 虛擬機器。
+你需要使用適當的雲端部署解決方案。
+解決方案：你應該使用軟體即服務（SaaS）。
+這個解決方案是否達到目標？
+
+
+A. Yes
+B. No
+
+
+ANS：B
+
+解析：Iaas
+
+1. IaaS（Infrastructure as a Service，基礎設施即服務）
+特點：
+# 提供虛擬機器和基礎設施：IaaS 提供用戶虛擬化的硬體資源，例如計算能力、儲存和網路。
+# 高控制權：用戶可以完全控制操作系統、儲存、網路配置等，但不需要管理底層硬體。
+# 適用場景：適合需要對硬體基礎設施有完全控制的應用，如虛擬機器部署、大型資料庫、網站托管等。
+常見提供商：
+Microsoft Azure（虛擬機器、網路服務、儲存服務等）
+Amazon Web Services (AWS)（EC2、S3、VPC等）
+Google Cloud Platform (GCP)（Compute Engine）
+
+2. PaaS（Platform as a Service，平台即服務）
+特點：
+# 提供開發和運行平台：PaaS 提供開發者所需的軟體開發框架和工具，讓他們能專注於應用程式開發，而不需要處理底層的硬體、網路和操作系統。
+# 自動化管理：PaaS 會自動處理基礎設施的更新、維護和擴展，降低開發者的運維負擔。
+# 適用場景：適合開發、測試和部署應用程式，特別是需要快速開發的 SaaS 應用。
+常見提供商：
+Microsoft Azure App Service
+Google App Engine
+Heroku
+AWS Elastic Beanstalk
+
+3. SaaS（Software as a Service，軟體即服務）
+特點：
+# 提供完整的應用程式：SaaS 提供即時可用的軟體應用程式，使用者只需透過網絡連接，即可直接使用，而無需關心底層的基礎設施或平台。
+# 無需維護：所有的維護、更新和基礎設施管理均由服務提供商負責，使用者只需使用應用程式。
+# 適用場景：適合需要即用型服務的業務，例如電子郵件、協作工具、CRM（客戶關係管理）等。
+常見提供商：
+Google Workspace（Gmail、Google Docs）
+Microsoft 365（Office、OneDrive）
+Salesforce（CRM）
+Dropbox（雲端儲存）
