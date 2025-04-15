@@ -1,0 +1,24 @@
+Your developers have created a portal web app for users in the Miami branch office. The web app will be publicly accessible and used by the Miami users to retrieve customer and product information. The web app is currently running in an on-premises test environment.
+You plan to host the web app on Azure.
+You need to determine which Azure web tier plan to host the web app. The web tier plan must meet the following requirements:
+✑ The website will use the miami.weyland.com URL.
+✑ The website will be deployed to two instances.
+✑ SSL support must be included.
+✑ The website requires 12 GB of storage.
+✑ Costs must be minimized.
+Which web tier plan should you use?
+你的開發人員已經為邁阿密分公司創建了一個門戶網站應用程式。該網站應用程式將公開訪問，並供邁阿密的用戶檢索客戶和產品資訊。該網站應用程式目前運行在內部測試環境中。
+你計劃將網站應用程式託管到 Azure 上。
+你需要確定應該使用哪個 Azure Web Tier 計劃來托管這個網站應用程式。該 Web Tier 計劃必須滿足以下要求：
+# 網站將使用 miami.weyland.com URL。 
+# 網站將部署到兩個實例上。 
+# 必須包括 SSL 支援。
+# 網站需要 12 GB 儲存空間。 
+# 必須最小化成本。
+
+你應該使用哪個 Web Tier 計劃？
+
+A. Standard
+B. Basic
+C. Free
+D. Shared
