@@ -1,0 +1,56 @@
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+Your company's Azure subscription includes a Basic support plan.
+They would like to request an assessment of an Azure environment's design from Microsoft. This is, however, not supported by the existing plan.
+You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum.
+Solution: You recommend that the company subscribes to the Professional Direct support plan.
+Does the solution meet the goal?
+
+**注意：**這題是多題共用同一個情境設定的其中一題，但每題的目標不同，請判斷該解法是否符合本題目標。
+
+你公司的 Azure 訂閱目前使用的是 Basic 支援方案。
+
+公司希望能向 Microsoft 請求一個 Azure 環境設計的評估建議，但目前的 Basic 方案無法提供這項功能。
+
+你想確保公司升級成一個能支援此功能的支援方案，同時盡量控制費用不要太高。
+
+解決方案： 你建議公司升級到 Professional Direct 支援方案。
+
+這個解決方案是否達到目標？
+
+A. Yes
+B. No
+
+
+ANS：B
+
+
+
+Azure 支援方案（Support Plans）由便宜到昂貴排序，共 5 種：
+1. Basic（免費）
+# 包含 Azure 服務健康狀態 Dashboard 和線上文件。
+# 無法提交技術支援請求（Support Ticket）。
+# 所有 Azure 訂閱者預設皆具備此方案。
+
+2. Developer
+約 29 美元／月。
+# 可提交技術支援請求，但僅限於開發或測試用途。
+# 回應時間為 8 小時內（僅針對最低嚴重性問題）。
+# 適合個人開發者或非正式環境使用。
+
+3. Standard
+約 100 美元／月。
+# 支援生產環境的問題處理。
+# 回應時間最快 1 小時（嚴重性 A，影響業務）。
+# 適合正式上線的中小型企業應用。
+
+4. Professional Direct（ProDirect）
+約 1,000 美元／月。
+# 提供設計諮詢服務、帳戶管理員（TAM）、操作健檢與預測性建議。
+# 回應時間比 Standard 更快。
+# 適合需要高可用性與專業建議的大型企業。
+
+5. Premier
+# 價格依企業需求客製報價（通常為數千至上萬美元／月）。
+# 提供全面性技術支援、部署協助、安全性顧問、全年無休支援。
+# 適合全球企業、政府單位與任務關鍵型應用。
+
