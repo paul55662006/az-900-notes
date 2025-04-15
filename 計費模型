@@ -1,0 +1,33 @@
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+Your company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently hosted on the Hyper-V hosts in a data center.
+You are required make sure that the intended Azure solution uses the correct expenditure model.
+Solution: You should recommend the use of the elastic expenditure model.
+Does the solution meet the goal?
+**注意：**這題是多題共用同一個情境設定的其中一題，但每題的目標不同，請判斷該解法是否符合本題目標。
+你的公司計劃將所有虛擬機器遷移到 Azure 的按需計費訂閱。這些虛擬機器目前托管在資料中心的 Hyper-V 主機上。
+你需要確保所選的 Azure 解決方案使用正確的支出模式。
+解決方案：你應該建議使用彈性支出模式。
+這個解決方案是否達到目標？
+
+A. Yes
+B. No
+
+
+ANS：B
+解析：
+# 彈性支出模型（Elastic Expenditure Model主要適用於那些需求波動較大或容易超出計算資源的情況
+，它可以根據需求自動調整資源的規模，從而確保資源能夠隨時滿足需求，同時避免資源的浪費。
+
+# 按需付費（Pay-As-You-Go） 模式適用於 需求較為穩定，使用量不確定或不規則 的情況。這種模式非常靈活，適合那些資源需求無法精確預測或需求較小的情況。
+
+
+
+
+---------------------------------------------------------------------------------
+按需計費（Pay-As-You-Go）模式：
+# 在 Azure 中，按需計費是最常見的計費模型。它是根據實際使用量來計算費用的，這意味著你只需為實際使用的資源付費，無需預先支付任何固定費用。
+# 這種模型的優點是靈活且無需長期承諾，特別適合需要動態擴展和縮減資源的工作負載。
+
+彈性支出模型（Elastic Expenditure Model）：
+# 彈性支出模型 主要指根據需要自動調整資源數量和規模。這是 Azure 的一個自動化特性，通常與自動擴展（auto-scaling）相關。該模型允許根據實際需求自動增加或減少計算資源，這有助於在需求波動的情況下，最小化成本並保持效能。
+# 彈性支出模型通常會在某些雲服務中自動調整資源，例如虛擬機、自動化規模組或容器服務等，這些可以根據當前負載自動擴展或縮小。
