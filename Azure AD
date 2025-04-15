@@ -1,0 +1,80 @@
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+You are planning to migrate a company to Azure. Each of the company's numerous divisions will have an administrator in place to manage the Azure resources used by their respective division.
+You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum.
+Solution: You plan to make use of several Azure Active Directory (Azure AD) directories.
+Does the solution meet the goal?
+**注意：**這題是多題共用同一個情境設定的其中一題，但每題的目標不同，請判斷該解法是否符合本題目標。
+你計劃將公司遷移到 Azure。每個公司部門將設有一名管理員來管理其所使用的 Azure 資源。
+你希望確保所使用的 Azure 部署方案能夠將 Azure 進行部門劃分，同時最小化管理工作量。
+解決方案：你計劃使用多個 Azure Active Directory（Azure AD）目錄。
+這個解決方案是否達到目標？
+
+A. Yes
+B. No
+
+
+ANS：B
+解析：
+這題的目標是確保 Azure 部署能夠對不同部門進行有效的劃分，並且盡量減少管理工作量。
+應該使用Azure管理組織結構
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+Azure AD 目錄的作用 Azure Active Directory
+是一個基於雲端的身份和訪問管理服務，提供企業和開發人員安全地管理用戶身份、應用程式的存取控制，以及其他雲端服務的集成。以下是 Azure AD 的主要特點：
+1. 身份管理
+# 用戶管理：提供用戶創建、刪除、管理帳戶和密碼的功能。支援用戶身份的統一管理。
+# 單一登入（SSO）：允許用戶只需要登錄一次，就能訪問多個應用程式或服務，無需重新登錄。這對於企業中需要訪問多個雲端應用程式的用戶來說非常方便。
+# 多重身份驗證（MFA）：提供額外的安全層級，通過要求用戶提供第二種驗證方式來防止未經授權的存取，增加帳戶的安全性。
+
+2. 應用程式管理
+# SaaS 應用程式整合：Azure AD 提供對數百個預先集成的 SaaS 應用程式（如 Office 365、Salesforce、Dropbox 等）的單一登入支持。
+# 應用程式註冊和管理：企業可以將內部和外部的應用程式（例如自訂應用程式或雲端應用程式）註冊到 Azure AD 中進行管理和訪問控制。
+
+3. 角色基礎的訪問控制（RBAC）
+# 透過角色基礎的訪問控制（RBAC），Azure AD 可以根據用戶的角色來限制他們對資源的訪問權限。企業可以定義不同角色的權限，並控制哪些人員可以訪問什麼資源。
+
+4. 安全性與合規性
+# 條件存取：根據用戶的登錄環境（如位置、設備等）設定存取策略。例如，可以設定只有從公司網絡內部登錄的用戶才能訪問敏感資源。
+# 監控與審計：提供對用戶活動、登入歷史和異常活動的監控，幫助企業檢測潛在的安全問題，並提供合規報告。
+
+5. 雲端身份服務
+# 支持雲端和混合身份模型：Azure AD 支持多種身份驗證方式，無論是純雲端身份（cloud-only）、混合身份（integrated）還是與現有的本地 Active Directory 集成（hybrid model）。
+# Azure AD B2B 和 B2C：支持企業與外部合作夥伴（B2B）以及面向消費者的身份管理（B2C）。例如，可以讓外部供應商或合作夥伴使用他們自己的身份登入企業應用。
+
+6. 自動化和集成
+# 自動化用戶帳戶管理：支持用戶帳戶的自動化創建、更新和刪除，通常與人力資源系統（HR）集成，以實現更高效的帳戶生命周期管理。
+# 應用程式編程介面（API）：Azure AD 提供豐富的 API，允許開發人員將身份管理功能集成到自訂應用程式或服務中。
+
+7. 身份保護和風險管理
+# Azure AD Identity Protection：提供風險檢測、風險評估及反應措施，幫助企業識別和應對不正常的登入活動或身份安全威脅。
+# 條件存取策略：依據用戶的風險評分、地理位置、設備等條件來定義存取規則，並進行適當的身份驗證措施。
+
+8. 支援混合雲環境
+# 與本地 Active Directory 集成：Azure AD 可與企業的本地 Active Directory 進行整合，實現混合身份管理，允許在雲端和本地環境中使用相同的身份資訊。
+
+9. 業務增值
+# 企業級應用管理：支持對企業內部及外部應用的管理，確保訪問控制和安全性得到保障。
+# 跨平台支持：Azure AD 支援各種平台，如 Windows、iOS、Android 等，並支持多種身份驗證協定（如 OAuth、SAML、OpenID Connect）。
+
+# Azure AD 目錄 是用來集中管理 Azure 資源、用戶帳戶、應用程式等身份認證資訊的服務。
+# 每個 Azure AD 目錄本質上代表一個單獨的邏輯區域，可以為不同的部門或業務單位創建不同的目錄來進行資源管理。
+
+----------------------------------------------------------------------------------------------------
+Azure 管理組織結構 Management Groups：
+1. 簡化管理：
+# 管理組織結構（Management Groups） 允許你將多個訂閱（Subscriptions）進行分層組織。每個管理組可以包含多個訂閱，並可以根據部門、地理區域或業務需求來劃分資源。
+這樣，你就可以在同一個 Azure AD 目錄 下進行跨部門的資源劃分和管理，而不需要為每個部門創建單獨的 Azure AD 目錄。
+
+2. 減少管理複雜性：
+# 使用 Azure 管理組織結構 可以讓你集中管理所有部門的資源，同時確保每個部門能夠擁有自己的訂閱，並能進行精細化的權限控制。
+不需要為每個部門創建不同的 Azure AD 目錄，這樣大大減少了管理工作量和運維成本。
+
+3. 跨訂閱和跨部門的資源共享：
+# 透過 管理組織結構，你可以在不同訂閱之間進行資源和策略的統一管理，並且可以實施一致的安全性、合規性和存取控制策略。
+這樣可以讓各部門之間在需要時共享資源，同時保持每個部門的獨立性。
+
+4. 最佳實踐：
+# Azure 管理組織結構 是 Azure 的最佳實踐之一，它能夠幫助你更高效地管理大規模的 Azure 環境，尤其是當公司有多個部門和大量資源時。
