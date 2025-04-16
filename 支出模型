@@ -1,0 +1,41 @@
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+Your company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently hosted on the Hyper-V hosts in a data center.
+You are required make sure that the intended Azure solution uses the correct expenditure model.
+Solution: You should recommend the use of the scalable expenditure model.
+Does the solution meet the goal?
+
+A. Yes
+B. No
+
+
+
+ANS：B
+解析：
+Pay-as-you-go 是 Operating Expenditure（OpEx，營運支出）模型
+
+
+
+
+-------------------------------------------------------------------------
+CapEx（Capital Expenditure）資本支出
+一次性投入大量資金，用於購買實體資產
+# 資產歸企業所有，需自行管理、維護
+# 設備壽命長，但初期成本高
+# 適合長期、穩定使用的情境
+# 缺乏彈性，無法快速擴展或縮減
+# 部署速度慢，需要時間設置硬體與基礎設施
+範例：
+# 採購伺服器、儲存設備、機房冷氣、交換器
+# 建置本地資料中心
+
+OpEx（Operating Expenditure）營運支出
+# 依照實際使用量或訂閱費用定期支付（例如月費）
+# 不擁有設備，透過服務供應商使用雲端資源
+# 成本彈性，適合需求波動大的業務
+# 可快速啟用、部署，支持快速擴展或縮減
+# 無需自行維護硬體與基礎設施
+# 預算可控制，屬於日常開銷的一部分
+範例：
+# Azure 的 Pay-as-you-go 訂閱模式
+# 使用虛擬機、儲存服務、App Service 等
+# SaaS 訂閱，如 Microsoft 365、Salesforce
