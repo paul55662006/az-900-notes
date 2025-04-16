@@ -52,6 +52,27 @@ Azure Management Groups 是什麼？
 # 適用於管理層級（誰能用、能用什麼、用多少）
 它不能自動部署 VM、Storage、Web App 等資源
 
+
+
+********************************************************************
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+Your company's infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation.
+The resources required by each business unit are identical.
+You are required to sanction a strategy to create Azure resources automatically.
+Solution: You recommend that the Azure Resource Manager templates be included in the strategy.
+Does the solution meet the goal?
+**注意：**這題屬於一組具有相同設定但答案各異的問題。你需要判斷所提出的解決方案是否符合需求。
+你們公司的基礎架構包含多個業務單位，
+每個業務單位在日常營運中都需要大量的各種 Azure 資源。
+而這些業務單位所需的資源是完全相同的。
+你被要求制定一個策略，用來自動建立這些 Azure 資源。
+**解決方案：**你建議在這個策略中納入 Azure Resource Manager（ARM）範本。
+
+A. Yes
+B. No
+
+
+ANS：A
 ----------------------------------------------------------
 自動建立 Azure 資源」，應該使用以下工具之一：
 # ARM Templates	-使用 JSON 定義資源，部署一致的環境
