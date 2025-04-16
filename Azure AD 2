@@ -1,0 +1,31 @@
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+Your company's Active Directory forest includes thousands of user accounts.
+You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired.
+You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed.
+Solution: You plan to sync all the Active Directory user accounts to Azure Active Directory (Azure AD).
+Does the solution meet the goal?
+**注意：**這題屬於一組具有相同設定但答案各異的問題。你需要判斷所提出的解決方案是否符合需求。
+你們公司的 Active Directory 樹系中包含數千個使用者帳戶。
+你已得知，所有網路資源將會遷移到 Azure，而原本的地端資料中心將會退役。
+你必須採取一項策略，在遷移完成後，盡量減少對使用者的影響。
+
+A. Yes
+B. No
+
+
+
+ANS：A
+
+
+
+----------------------------------------------------------------------------
+同步帳號到 Azure AD（透過 Azure AD Connect）是最常見的方式，可以讓使用者：
+# 繼續使用原本的帳號登入（同一組使用者名稱與密碼）
+# 不需重新註冊帳號
+# 平滑過渡到 Azure 雲端資源
+Azure AD 是雲端版的身份管理平台，用來：
+# 管理 Azure 資源的存取權限
+# 提供單一登入（SSO）
+# 整合 Microsoft 365、SaaS 服務等
+
+如果你不進行帳號同步，使用者遷移後會需要新帳號、新登入流程，影響會很大
