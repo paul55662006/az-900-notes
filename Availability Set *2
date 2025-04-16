@@ -20,9 +20,27 @@ ANS：B
 在同一個 Availability Zone 內的 VM，若該區域發生故障（例如停電、機房網路中斷），所有 VM 都會一起掛掉
 至少 2 台 VM 分別部署在不同的 Availability Zones中
 
+***********************************************************************************
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure.
+You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible.
+Solution: You include one virtual machine and two availability zones in your strategy.
+Does the solution meet the goal?
+**注意：**這題屬於一組具有相同設定但答案各異的問題。你需要判斷所提出的解決方案是否符合需求。
+你被指派要將一個**關鍵的企業營運應用程式（LOB application）**部署到 Azure，
+這個應用程式將安裝在虛擬機（Virtual Machine）上。
+你被告知，應用程式的部署策略應該保證有 99.99% 的可用性（Availability）。
+你必須確保這個策略使用最少的虛擬機與可用性區域（Availability Zones）。
+解決方案：你在策略中包含一台虛擬機，並使用兩個可用性區域（Availability Zones）。
+
+A. Yes
+B. No
 
 
 
+ANS：B
+解析：
+虛擬機至少要有"兩台"且分別部署在 兩個不同的 Availability Zones，才符合可用性設定組
 -------------------------------------------------------------------------------------
 什麼是 Availability Set（可用性設定組）？
 它是 Azure 給你的一種「保護機制」，讓你部署的多台 VM 被分散到不同的機架上，這樣就算某個機架出問題，不會所有 VM 一起當機。
